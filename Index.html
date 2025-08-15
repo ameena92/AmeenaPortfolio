@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hey, I'm Shaik</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+    .overlay .shape {
+        height: 35px;
+    width: initial;
+    opacity: 0.13;
+    position: relative;
+    }
+
+     #shape1{
+            position:absolute;
+            top: 400px;
+            left: 100px;  
+        }
+        #shape2{
+            position:absolute;
+            top: 500px;
+            left: 500px;  
+        }
+        #shape3{
+            position:absolute;
+            top: 300px;
+            right: 100px;  
+        }
+        #shape4{
+            position:absolute;
+            top: 200px;
+            left: 400px;  
+        }
+        #shape5{
+            position:absolute;
+            top: 150px;
+            left: 800px;  
+        }
+        #shape6{
+            position:absolute;
+            top: 550px;
+            left: 800px;  
+        }
+        #myimage{
+            
+            position:absolute;
+            margin-top: 20px;
+            right:  250px;
+            
+        }
+        .ameena{
+            border-radius: 20px;
+        }
+        nav{
+            background-color: rgb(227, 213, 241);
+            height: 70px;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+            margin: 0px;
+            padding: o 4rem;
+        }
+        .container{
+            display: flex;
+            flex-direction: row;
+            position: relative;
+        }
+        ul{
+            list-style: none;
+            box-sizing: border-box;
+        }
+        .links{
+            width: 100%;
+            
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            text-align: center;
+            margin-top: 20px;
+            
+            
+                    }
+        a{
+            list-style: none;
+            text-decoration: none;
+            color: black;
+            
+            left: 200px;
+            display: inline-block;
+        }
+        .menuitems{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            gap: 30px;
+            text-align: center;
+        }
+        .logo{
+            padding: 6px;
+            margin-right: 100px;
+        }
+        .containerflex2{
+            background-color: rgb(243, 245, 247);
+            
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .row1{
+            position: relative;
+            margin-top: -250px;
+            width: 50%;
+            margin-left: 50px;
+        }
+        .row2{
+            position: relative;
+            height: 700px;
+            width: 50%;  
+        }
+        .points{
+            height: 300px;
+            position: absolute;
+            opacity: 0.1;
+            top: 50%;
+            left: 250px;
+        }
+        .points2{
+            height: 300px;
+            position: absolute;
+            opacity: 0.1;
+            top: 90%;
+            left: 100px;
+        }
+        .card{
+            
+            position: relative;
+            margin-left: 20px;
+            background-color: aliceblue;
+            border-radius: 20px;
+        }
+        .web{
+            margin-left: 70px;
+        }
+        .cards{
+            display: flex;
+            flex: 1 0 30%;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 20px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <header id="header">
+            <div class="overlay overlay-lg">
+                <div id="shape1"><img src="./half-circle.png" class="shape half circle" alt="half circle"></div>
+                <div id="shape2"><img src="./square.png" class="shape square" alt="square shape"></div>
+                <div id="shape3"><img src="./triangle.png" class="shape traingle" alt="shape triangle"></div>
+                <div id="shape4"><img src="./half-circle.png" class="shape circle" alt="shape circle"></div>
+                <div id="shape5"><img src="./x.png" class="shape x" alt="shape x"></div>
+                <div id="shape6"><img src="./triangle.png" class="shape traingle" alt="shape triangle"></div>
+                  
+                 </div>
+
+                 <nav>
+                  <div class="container">
+                    <div class="logo">
+                        <!-- <i class="fa-solid fa-s"></i> -->
+                         <img src="./shaik.jpg" alt="shaik" height="30px" width="30px">
+                        <div><strong>Shaik</strong></div>
+                        </div>
+                    
+                    <div class="links">
+                        <ul class="menuitems">
+                            <li>
+                                <a href="./home.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="./services.html">Services</a>
+                            </li>
+                            <li>
+                                <a href="./portfolio.html">portfolio</a>
+                            </li>
+                            <li>
+                                <a href="./websites.html">Testimonials</a>
+                            </li>
+                            <li>
+                                <a href="./aboutme.html">Aboutme</a>
+                            </li>
+                            <li>
+                                <a href="./contact.html">Contact</a>
+                            </li>
+                            <li>
+                                <button class="btn btn-dark">Hire Me</button>
+                            </li>
+                        </ul>
+                        
+                        
+                    </div>
+                    <div class="hamburger_menu">
+                        <div class="bar"></div>
+                    </div>
+                  </div>
+                  </nav>
+         <div class="containerflex2">
+            <div class="row1">
+                <h1>Ameena Shaik</h1>
+                <p>Hello, I'm Shaik, Mobile and Full Stack developer.
+                <p>Flutter, FlutterFlow, ReactJS, Dart, JavaScript, Laravel, Wordpress/Woocommerce, NodeJS/ExpressJS  Firebase, Firestore, MongoDB, Material UI, AWS, GCP, etc</p>
+               <p>Application Packaging Intune Deployement SCCm MECM Intune HTML </p>
+                <p>HTML CSS JAva SCript Bootstrap</p>
+               <a href="./contact.html"><button class="btn btn-dark">Download CV</button></a>
+                <img src="./points2.png" alt="points" class="points2">
+            </div>
+            <div class="row2">
+                <div id="myimage"><img src="./ameena_portfolio.jpg" class="ameena" alt="ameena" height="350px" width="350px" ></div>
+                <img src="./points2.png" alt="points" class="points">
+            </div>
+
+
+         </div>
+        </header>
+
+        <!-- services section -->
+         <section>
+            <div class="sectioncontainer">
+                <div class="sectionheader">
+                    <h3 class="title text-center" data-title="what I do">Services</h3>
+                    <p class="text-center">The services i can provide as a developer to your company or business.</p>
+                </div>
+
+                <div class="cards">
+
+                    <div class="card" style="width: 18rem;">
+                     <img src="./web.png" class="web" alt="webpage" height="100px" width="100px">
+                        <div class="card-body">
+                         <h5 class="card-title">Web Development</h5>
+                         <p class="card-text"> Helping start-ups, small businesses, and agencies achieve high quality websites and exceptional user experience</p>
+                        <a href="./contact.html" class="btn btn-dark text-center">HireMe</a>
+                        </div>
+                    </div>
+
+                    <div class="card" style="width: 18rem;">
+                     <img src="./web.png" class="web" alt="webpage" height="100px" width="100px">
+                        <div class="card-body">
+                         <h5 class="card-title">Intune Deployment</h5>
+                         <p class="card-text"> Helping start-ups, small businesses, and agencies achieve high quality websites and exceptional user experience</p>
+                        <a href="./contact.html" class="btn btn-dark text-center">HireMe</a>
+                        </div>
+                    </div>
+
+                    <div class="card" style="width: 18rem;">
+                     <img src="./web.png" class="web" alt="webpage" height="100px" width="100px">
+                        <div class="card-body">
+                         <h5 class="card-title">CSS</h5>
+                         <p class="card-text"> Helping start-ups, small businesses, and agencies achieve high quality websites and exceptional user experience</p>
+                        <a href="./contact.html" class="btn btn-dark text-center">HireMe</a>
+                        </div>
+                    </div>
+
+                    <div class="card" style="width: 18rem;">
+                     <img src="./web.png" class="web" alt="webpage" height="100px" width="100px">
+                        <div class="card-body">
+                         <h5 class="card-title">HTML</h5>
+                         <p class="card-text"> Helping start-ups, small businesses, and agencies achieve high quality websites and exceptional user experience</p>
+                        <a href="./contact.html" class="btn btn-dark text-center">HireMe</a>
+                        </div>
+                    </div>
+
+
+                    <div class="card" style="width: 18rem;">
+                     <img src="./web.png" class="web" alt="webpage" height="100px" width="100px">
+                        <div class="card-body">
+                         <h5 class="card-title">Bootstrap</h5>
+                         <p class="card-text"> Helping start-ups, small businesses, and agencies achieve high quality websites and exceptional user experience</p>
+                        <a href="./contact.html" class="btn btn-dark text-center">HireMe</a>
+                        </div>
+                    </div>
+
+
+                    <div class="card" style="width: 18rem;">
+                     <img src="./web.png" class="web" alt="webpage" height="100px" width="100px">
+                        <div class="card-body">
+                         <h5 class="card-title">Java Script</h5>
+                         <p class="card-text"> Helping start-ups, small businesses, and agencies achieve high quality websites and exceptional user experience</p>
+                        <a href="./contact.html" class="btn btn-dark text-center">HireMe</a>
+                        </div>
+                    </div>
+
+
+                    <div class="card" style="width: 18rem;">
+                     <img src="./web.png" class="web" alt="webpage" height="100px" width="100px">
+                        <div class="card-body">
+                         <h5 class="card-title">Application Packaging</h5>
+                         <p class="card-text"> Helping start-ups, small businesses, and agencies achieve high quality websites and exceptional user experience</p>
+                        <a href="./contact.html" class="btn btn-dark text-center">HireMe</a>
+                        </div>
+                    </div>
+
+
+                    <div class="card" style="width: 18rem;">
+                     <img src="./web.png" class="web" alt="webpage" height="100px" width="100px">
+                        <div class="card-body">
+                         <h5 class="card-title">SCCM/MECM</h5>
+                         <p class="card-text"> Helping start-ups, small businesses, and agencies achieve high quality websites and exceptional user experience</p>
+                        <a href="./contact.html" class="btn btn-dark text-center">HireMe</a>
+                        </div>
+                    </div>
+
+
+
+
+                    
+                </div>
+
+            </div>
+         </section>
+
+    
+</body>
+</html>

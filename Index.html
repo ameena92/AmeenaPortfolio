@@ -57,7 +57,7 @@
         nav{
             background-color: rgb(227, 213, 241);
             height: 70px;
-            width: 100%;
+            
             display: flex;
             flex-direction: row;
             justify-content: space-between;
@@ -83,9 +83,7 @@
             justify-content: space-between;
             text-align: center;
             margin-top: 20px;
-            
-            
-                    }
+             }
         a{
             list-style: none;
             text-decoration: none;
@@ -115,7 +113,8 @@
         }
         .row1{
             position: relative;
-            margin-top: -250px;
+            height: 650px;
+            margin-top: 5px;
             width: 50%;
             margin-left: 50px;
         }
@@ -126,16 +125,17 @@
         }
         .points{
             height: 300px;
+            width: 50%;
             position: absolute;
             opacity: 0.1;
             top: 50%;
-            left: 250px;
+            left: 100px;
         }
         .points2{
             height: 300px;
             position: absolute;
             opacity: 0.1;
-            top: 90%;
+            top: 30%;
             left: 100px;
         }
         .card{
@@ -156,18 +156,107 @@
             justify-content: space-around;
             gap: 20px;
         }
+        .portfoliocontainer{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            background-color: rgb(247, 245, 249);
+            
+        }
+        .overlay2{
+            
+            display: flex;
+            
+            flex-direction: column;
+            /* background-color:rgb(243, 247, 250); */
+            width: 100%;
+            position: relative;
+        }
+        .overlay2 .shape {
+        height: 35px;
+        
+        width: initial;
+        opacity: 0.13;
+        position: relative;
+    }
+    #shape7{
+            position:absolute;
+            top: 200px;
+            left: 100px;  
+        }
+        #shape8{
+            position:absolute;
+            top: 80px;
+            right: 150px;  
+        }
+        #shape9{
+            position:absolute;
+            top: 200px;
+            left: 700px;  
+        }
+        #shape14{
+            position:absolute;
+            top: 120px;
+            right: 300px;  
+        }
+        #shape16{
+            position:absolute;
+            top: 180px;
+            left: 230px;  
+        }
+        .sectionhead4{
+            display: flex;
+            flex-direction: column;
+            
+            height: 700px;
+            
+            align-items: center;
+            
+            
+        }
+        .filter{
+        
+        display: flex;
+        flex-wrap: wrap;
+        align-items:center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        
+        gap: 50px;
+            color: blueviolet;
+            
+        }
+        button{
+            border-radius: 4px;
+            align-items: center;
+        }
+        .cards8{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            flex-flow: wrap;
+            margin-top: 10px;
+            padding: 5px;
+            
+
+        }
+         
+        
+        
+    
+         
     </style>
 </head>
 <body>
     <main>
         <header id="header">
             <div class="overlay overlay-lg">
-                <div id="shape1"><img src="./half-circle.png" class="shape half circle" alt="half circle"></div>
-                <div id="shape2"><img src="./square.png" class="shape square" alt="square shape"></div>
-                <div id="shape3"><img src="./triangle.png" class="shape traingle" alt="shape triangle"></div>
-                <div id="shape4"><img src="./half-circle.png" class="shape circle" alt="shape circle"></div>
-                <div id="shape5"><img src="./x.png" class="shape x" alt="shape x"></div>
-                <div id="shape6"><img src="./triangle.png" class="shape traingle" alt="shape triangle"></div>
+                <div id="shape1"><img src="./half-circle.png" class="shape half circle image-thumbnail img-fluid" alt="half circle"></div>
+                <div id="shape2"><img src="./square.png" class="shape square image-thumbnail img-fluid" alt="square shape"></div>
+                <div id="shape3"><img src="./triangle.png" class="shape traingle image-thumbnail img-fluid" alt="shape triangle"></div>
+                <div id="shape4"><img src="./half-circle.png" class="shape circle image-thumbnail img-fluid" alt="shape circle"></div>
+                <div id="shape5"><img src="./x.png" class="shape x image-thumbnail img-fluid" alt="shape x"></div>
+                <div id="shape6"><img src="./triangle.png" class="shape traingle image-thumbnail img-fluid" alt="shape triangle"></div>
                   
                  </div>
 
@@ -175,7 +264,7 @@
                   <div class="container">
                     <div class="logo">
                         <!-- <i class="fa-solid fa-s"></i> -->
-                         <img src="./shaik.jpg" alt="shaik" height="30px" width="30px">
+                         <img src="./shaik.jpg" class="image-thumbnail img-fluid" alt="shaik" height="30px" width="30px">
                         <div><strong>Shaik</strong></div>
                         </div>
                     
@@ -211,19 +300,19 @@
                     </div>
                   </div>
                   </nav>
-         <div class="containerflex2">
+         <div class="containerflex2 d-flex">
             <div class="row1">
-                <h1>Ameena Shaik</h1>
-                <p>Hello, I'm Shaik, Mobile and Full Stack developer.
-                <p>Flutter, FlutterFlow, ReactJS, Dart, JavaScript, Laravel, Wordpress/Woocommerce, NodeJS/ExpressJS  Firebase, Firestore, MongoDB, Material UI, AWS, GCP, etc</p>
-               <p>Application Packaging Intune Deployement SCCm MECM Intune HTML </p>
-                <p>HTML CSS JAva SCript Bootstrap</p>
+                <h1 class="text-center text-md-start">Ameena Shaik</h1>
+                <p class="text-center text-md-start">Hello, I'm Shaik, Mobile and Full Stack developer.
+                <p class="text-center text-md-start">Flutter, FlutterFlow, ReactJS, Dart, JavaScript, Laravel, Wordpress/Woocommerce, NodeJS/ExpressJS  Firebase, Firestore, MongoDB, Material UI, AWS, GCP, etc</p>
+               <p class="text-center text-md-start">Application Packaging Intune Deployement SCCm MECM Intune HTML </p>
+                <p class="text-center text-md-start">HTML CSS JAva SCript Bootstrap</p>
                <a href="./contact.html"><button class="btn btn-dark">Download CV</button></a>
-                <img src="./points2.png" alt="points" class="points2">
+                <img src="./points2.png" alt="points" class="points2 image-thumbnail img-fluid">
             </div>
             <div class="row2">
-                <div id="myimage"><img src="./ameena_portfolio.jpg" class="ameena" alt="ameena" height="350px" width="350px" ></div>
-                <img src="./points2.png" alt="points" class="points">
+                <div id="myimage"><img src="./ameena_portfolio.jpg" class="ameena image-thumbnail img-fluid" alt="ameena" height="350px" width="350px" ></div>
+                <img src="./points2.png" alt="points" class="points image-thumbnail img-fluid">
             </div>
 
 
@@ -324,6 +413,135 @@
 
             </div>
          </section>
+
+         <section>
+            <div class="portfoliocontainer">
+                
+                
+                    <div class="overlay2 overlay-lg">
+                        <h3 class="text-dark text-center mt-5">My Portfolio</h3>
+                        
+                        <!-- <h2 class="text-dark text-center title9">PortFolio</h2> -->
+                        <div class="sectionhead4">
+                            
+                            <div class="filter">
+                                
+                            <button class="filter-btn bg-dark text-white" data-filter="*">All</button>
+                            <button class="filter-btn  bg-dark text-white" data-filter=".appdev">Mobile App</button>
+                            
+                             <button class="filter-btn bg-dark text-white" data-filter=".webdev">Web App</button>
+                            <button class="filter-btn bg-dark text-white" data-filter=".webdev">Windows App</button>
+                            <button class="filter-btn bg-dark text-white" data-filter=".wordpress">WordPress</button>
+                            <!-- <button class="filter-btn bg-info text-white" data-filter=".wordpress">Intune Deployment APPs</button> -->
+                            </div>
+                             
+                            <div class="cards8">
+                                <div class="card" style="width: 18rem;">
+                                <a href="../Restuarant website/index.html"><img src="./r1.webp" class="card-img-top" alt="restaurant"></a>
+                                
+                                <div class="card-body">
+                                 <p class="card-text"><strong>Restaurant App built with HTMl css Jav script Bootstrap</strong></p>
+                                </div>
+                               </div>
+                            
+
+
+                            
+                                <div class="card" style="width: 18rem;">
+                                <a href="../Restuarant website/index.html"><img src="./Chocolate truffle.jpeg" class="card-img-top" alt="restaurant" height="200px"></a>
+                                
+                                <div class="card-body">
+                                 <p class="card-text"><strong>Restaurant App built with HTMl css Jav script Bootstrap</strong></p>
+                                </div>
+                                </div>
+                            
+
+
+                             
+                                <div class="card" style="width: 18rem;">
+                                <a href="./introduction.html"><img src="./School2.jpg" class="card-img-top" alt="School"></a>
+                                
+                                <div class="card-body">
+                                 <p class="card-text"><strong>Restaurant App built with HTMl css Jav script Bootstrap</strong></p>
+                                </div>
+                            
+                                </div>
+
+
+                                <div class="card" style="width: 18rem;">
+                                <a href="../Restuarant website/index.html"><img src="./bangles23.jpg" class="card-img-top" alt="restaurant" height="200px"></a>
+                                
+                                <div class="card-body">
+                                 <p class="card-text"><strong>Restaurant App built with HTMl css Jav script Bootstrap</strong></p>
+                                </div>
+                               </div>
+                            
+
+
+                            
+                                <div class="card" style="width: 18rem;">
+                                <a href="../Restuarant website/index.html"><img src="./Choco Brownies.jpeg" class="card-img-top" alt="restaurant"></a>
+                                
+                                <div class="card-body">
+                                 <p class="card-text"><strong>Restaurant App built with HTMl css Jav script Bootstrap</strong></p>
+                                </div>
+                                </div>
+                            
+
+
+                             
+                                <div class="card" style="width: 18rem;">
+                                <a href="./introduction.html"><img src="./school3.jpg" class="card-img-top" alt="School"></a>
+                                
+                                <div class="card-body">
+                                 <p class="card-text"><strong>Restaurant App built with HTMl css Jav script Bootstrap</strong></p>
+                                </div>
+                            
+                                </div>
+
+                        </div>
+                     
+                <div id="shape7"><img src="./half-circle.png" class="shape half circle image-thumbnail img-fluid" alt="half circle"></div>
+                <div id="shape8"><img src="./square.png" class="shape square image-thumbnail img-fluid" alt="square shape"></div>
+                <div id="shape9"><img src="./triangle.png" class="shape traingle image-thumbnail img-fluid" alt="shape triangle"></div>
+                <div id="shape14"><img src="./half-circle.png" class="shape circle image-thumbnail img-fluid" alt="shape circle"></div>
+                <div id="shape15"><img src="./x.png" class="shape x image-thumbnail img-fluid" alt="shape x"></div>
+                <div id="shape16"><img src="./triangle.png" class="shape traingle image-thumbnail img-fluid" alt="shape triangle"></div>
+                 </div> 
+                    
+            </div>
+            
+
+            <div class="port2container">
+                <div class="sectionheader2">
+                     
+
+                </div>
+                </div>
+         </section>
+
+         <section class="about section" id="about">
+        <div class="container">
+           
+          <div class="section-body about">
+            <div class="column-1">
+                <h2 class="title text-center" data-title="Who Am I">About me</h2>
+              <h5 class="title-sm">Hello, I'm Shaik</h5>
+              <p class="text">
+                A passionate Mobile App and Full Stack Web Developer having an
+                experience of building Mobile and Web applications with
+                JavaScript / Reactjs / Nodejs / Firebase and some other cool
+                libraries and frameworks and Cross Platform Mobile Apps With
+                Flutter.
+              </p>
+               
+            <div class="column-2 image">
+               
+              <img src="./ameena_portfolio.jpg" class="z-index" alt="Ameena" height="200px" width="200px">
+            </div>
+          </div>
+        </div>
+      </section>
 
     
 </body>
